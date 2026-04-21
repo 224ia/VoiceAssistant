@@ -1,0 +1,8 @@
+{
+  "comment": "Keys must match app_name enum in commands.json (change_app command)",
+
+  "telegram": "your_telegram_path",
+  "discord": "your_discord_path",
+  "steam": "your_steam_path",
+  "etc": "..."
+}
