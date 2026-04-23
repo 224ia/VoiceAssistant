@@ -13,7 +13,13 @@ dependencies {
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+    implementation group: 'net.java.dev.jna', name: 'jna', version: '5.7.0'
+    implementation 'com.alphacephei:vosk:0.3.45'
     implementation 'com.openai:openai-java:4.32.0'
+    implementation 'org.reflections:reflections:0.10.2'
+    implementation 'com.fasterxml.jackson.core:jackson-core:2.21.1'
+    implementation 'com.fasterxml.jackson.core:jackson-annotations:2.15.2'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.15.2'
 }
 
 test {

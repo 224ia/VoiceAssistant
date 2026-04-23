@@ -1,0 +1,15 @@
+{
+  "description": "Відкриває/закриває програму на комп'ютері",
+  "params": {
+    "state": {
+      "type": "string",
+      "enum": ["on", "off"],
+      "required": true
+    },
+    "app_name": {
+      "type": "string",
+      "enum": ["telegram", "discord", "steam", "firefox", "edge"],
+      "required": true
+    }
+  }
+}

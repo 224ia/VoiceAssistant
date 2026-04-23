@@ -1,0 +1,14 @@
+{
+  "description": "Поставити таймер",
+  "params": {
+    "time": {
+      "type": "number",
+      "required": true
+    },
+    "unit": {
+      "type": "string",
+      "enum": ["seconds", "minutes", "hours"],
+      "required": true
+    }
+  }
+}

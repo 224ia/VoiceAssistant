@@ -42,8 +42,8 @@ bin/
 ### Mac OS ###
 .DS_Store
 
-src/main/resources/Configuration/Configuration.txt
-!src/main/resources/Configuration/Configuration.example.txt
+src/main/resources/config/application.properties
+!src/main/resources/config/application.example.properties
 
-src/main/resources/AppPaths/app_paths.json
-!src/main/resources/AppPaths/app_paths.example.json
+src/main/resources/app_paths.json
+!src/main/resources/app_paths.example.json
