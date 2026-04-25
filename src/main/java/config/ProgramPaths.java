@@ -7,6 +7,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.List;
 import java.util.Map;
 
 public class ProgramPaths {
@@ -28,5 +29,9 @@ public class ProgramPaths {
 
     public static String get(String key) {
         return appPaths.get(key);
+    }
+
+    public static List<String> getKeys() {
+        return appPaths.keySet().stream().toList();
     }
 }

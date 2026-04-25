@@ -8,7 +8,7 @@
     },
     "app_name": {
       "type": "string",
-      "enum": ["telegram", "discord", "steam", "firefox", "edge"],
+      "enum": "*from app_paths.json file*",
       "required": true
     }
   }

@@ -16,7 +16,7 @@ public class ActionSystem {
     private static final String CUSTOM_ACTIONS_PACKAGE_PATH = "actions.custom";
 
     public ActionSystem() {
-        Logger.info("actions system was created");
+        Logger.info("Actions system was created");
         registerAnnotated();
     }
 
