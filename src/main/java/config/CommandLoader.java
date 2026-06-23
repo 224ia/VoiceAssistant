@@ -34,7 +34,7 @@ public class CommandLoader {
                             String commandName = fileName.substring(0, fileName.lastIndexOf('.'));
 
                             CommandDefinition cmd = mapper.readValue(file.toFile(), CommandDefinition.class);
-                            if (commandName.equals("change_app")) {
+                            if (commandName.equals("change_app") && cmd.params.containsKey("app_name")) {
                                 cmd.params.get("app_name").enumValues = ProgramPaths.getKeys();
                             }
                             commands.put(commandName, cmd);
